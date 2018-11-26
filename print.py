@@ -13,8 +13,8 @@ print('''line1
 ... line3''')
 
 '''获取字符的整数编码'''
-print ord('A')
-print ord('1')
+print (ord('A'))
+print (ord('1'))
 
 # 格式化字符串内容
 user_name = "张三"

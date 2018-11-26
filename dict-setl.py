@@ -14,7 +14,7 @@
 '''
 
 # 接受用户数据的年龄,来判断当前处于哪个年龄段
-name = raw_input("请输入需要查询成绩学生的姓名:")
+name = input("请输入需要查询成绩学生的姓名:")
 
 # print type(name) 获取输入的类型
 
@@ -33,4 +33,4 @@ def get_chengji(name,d):
 		return 0
 	
 chengji = get_chengji(name,d)
-print '查询到的成绩为:'+str(chengji)
+print ('查询到的成绩为:'+str(chengji))

@@ -25,4 +25,4 @@ def trim(s):
 		
 x,y = trim(" hello sss")
 
-print x + '---'+str(y)
+print (x + '---'+str(y))

@@ -10,7 +10,7 @@
 # 接受用户数据的年龄,来判断当前处于哪个年龄段
 age_numbser = int(input("请输入你的年龄并按回车键确认....."))
 
-print age_numbser
+print (age_numbser)
 
 # 
 # 定义一个年龄判断的方法，判断输入的年龄是属于什么阶段<少年、青年、成年、中年、老年>
@@ -44,7 +44,7 @@ def check_age(age):
 		return 10
 
 #获取当前年龄所处的年龄段
-print age_name[check_age(age_numbser)-1];
+print (age_name[check_age(age_numbser)-1])
 
 
 

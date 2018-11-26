@@ -8,7 +8,7 @@
 user_name = ['zhangsan','lisi','mac','cuirui','liqi','hongjia','beipo']
 
 for name in user_name:
-	print "用户名:"+name+"\r";
+	print ("用户名:"+name+"\r")
 
 nums = list(range(1,101))
 
@@ -23,7 +23,7 @@ def get_sum_num(num_list):
 		return 0
 
 sum_num = get_sum_num(nums)
-print sum_num
+print (sum_num)
 #print "汇总的结果为:"+ sum_num
 
 
@@ -51,6 +51,6 @@ def func_break():
 		m = m+1
 
 
-print sum_even();
+print (sum_even())
 
-func_break();
+func_break()

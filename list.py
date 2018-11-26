@@ -40,19 +40,19 @@ list_user.append('Adam')
 add_user_name('niuren')
 # 在指定的位置添加元素
 add_user_name('meituan',3)
-print list_user;
+print (list_user)
 # 删除元素
 del_user_name()
-print list_user;
+print (list_user)
 del_user_name(4)
-print list_user;
+print (list_user)
 
-print get_user_name(5)
+print (get_user_name(5))
 
 
 # tuple元组 
 
 cat_user_name = ('yiqu','wangq','lpeoww',['niw','soql'])
 
-print cat_user_name;
+print (cat_user_name)
 

@@ -20,7 +20,7 @@ def power(x,y):
 		s = s * x
 	return s
 	
-print "位置参数-例子1- 结果"+str(power(2,3))
+print ("位置参数-例子1- 结果"+str(power(2,3)))
 #-----------------------------------位置参数-------------------------------------
 
 
@@ -32,7 +32,7 @@ print "位置参数-例子1- 结果"+str(power(2,3))
 def getNum(a,b = 0):
 	return a+b
 
-print "默认参数-1 - 结果"+str(getNum(2))
+print ("默认参数-1 - 结果"+str(getNum(2)))
 
 '''
 从上面的例子可以看出，默认参数可以简化函数的调用。设置默认参数时，有几点要注意：
@@ -50,7 +50,7 @@ print "默认参数-1 - 结果"+str(getNum(2))
 '''
 
 def addUser(user_id,user_name,user_age = 10,city_name='beijing'):
-	print "默认参数-例子2-"+str(user_id)+'-'+ str(user_name) +'-'+str(user_age)+'-'+ str(city_name)
+	print("默认参数-例子2-"+str(user_id)+'-'+ str(user_name) +'-'+str(user_age)+'-'+ str(city_name))
 
 # 写法一：按照顺序填充
 addUser(1,'zhangsan');
@@ -70,7 +70,7 @@ def getnumbsers(*numbers):
 	sum = 0
 	for n in numbers:
 		sum = sum + n * n
-		print "位置参数-例子1- 结果"+str(sum)
+		print ("位置参数-例子1- 结果"+str(sum))
 
 #第一种调用形式
 getnumbsers(1,2,4,5,6,7,8,9)
@@ -106,12 +106,12 @@ test1('wangwu','shanghai',**args_dict)
 #传入params 函数的调用者可以传入任意不受限制的关键字参数params ,然后在函数内验证参数
 def setParams(i_d,name,**params):
 	if 'city' in params:
-		print "检查到city 参数"+str(params['city'])
+		print ("检查到city 参数"+str(params['city']))
 		pass
 	if 'weixin_id' in params:
-		print "检查到weixin_id 参数"+str(params['weixin_id'])
+		print ("检查到weixin_id 参数"+str(params['weixin_id']))
 		pass
-	print '命名关键字参数' + str(('i_d',i_d,'name',name,'params',params))
+	print ('命名关键字参数' + str(('i_d',i_d,'name',name,'params',params)))
 
 setParams(2891,'louuw',city='beijing',weixin_id=9922)
 

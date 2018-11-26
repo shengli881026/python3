@@ -9,7 +9,7 @@ def get_nums(i):
 	if(i > 0):
 		return i
 	else:
-		return -i 
+		return -i
 
 
 def return_args(j,k):
@@ -18,7 +18,8 @@ def return_args(j,k):
 	return m,n
 
 
-print "输出:"+str(get_nums(10))
+
+print ("输出:"+str(get_nums(10)))
 
 u,v = return_args(2,3)
-print "两个数相加="+str(u)+"，相乘="+str(v)
+print ("两个数相加="+str(u)+"，相乘="+str(v))
