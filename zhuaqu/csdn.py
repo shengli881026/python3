@@ -11,6 +11,7 @@ import  codecs
 class CsdnData :
 
     def __init__(self):
+        print("初始化加载....")
         pass
 
     def GetData(self,page):
