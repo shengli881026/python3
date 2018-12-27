@@ -4,6 +4,7 @@ import  requests
 import  codecs
 import  logging
 
+
 '''
  *  抓取掘金<juejin.im>网站的 - 相亲模块的数据
  * 
@@ -38,7 +39,9 @@ class JmData :
         result = json.loads(ret.content.decode())
         if (result['m'] == 'success'):
             print("一共采集到"+format(result['d']['total'])+'条数据')
-            return result['d']['list']
+
+        self.LogInfo()
+        return result['d']['list']
     '''
      * 格式化数据的接口，用于对Url请求的结果进行格式化处理，返回对应的数据；
      * @return data;
@@ -52,8 +55,9 @@ class JmData :
      * @ logging 模块的使用
     '''
     def LogInfo(self,log_level = 0):
-        #level = ['1':'debug','2': 'info','3': 'warning', '4': 'error', 5: 'critical']
-
+        level_ = ['debug','info','warning','error','critical']
+        level_str = level[0]
+        logging.level[]("ssss")
         pass
 
 
@@ -61,7 +65,7 @@ class JmData :
 
 
 jm_obj = JmData(page=0,page_size=20)
-print(jm_obj.GetData(2))
+jm_obj.GetData(2)
 #print(jm_obj.__dict__)
 #print(JmData.__dict__)
 #csdn_obj.GetData(1)
