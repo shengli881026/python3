@@ -1,0 +1,7 @@
+2018-12-27 19:20:23,938 - __main__ - INFO - Start print log
+2018-12-27 19:22:42,230 - __main__ - INFO - Start print log
+2018-12-27 19:22:42,231 - __main__ - WARNING - Something maybe fail.
+2018-12-27 19:23:01,498 - __main__ - INFO - Start print log
+2018-12-27 19:43:18,739 - __main__ - INFO - Start print log
+2018-12-27 19:43:22,204 - __main__ - INFO - Start print log
+2018-12-27 19:43:26,706 - __main__ - INFO - Start print log

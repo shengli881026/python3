@@ -22,7 +22,7 @@
 #
 
 venv/
-# 忽略venv_windos 目录下所有的文件
-venv_windos/  
+#忽略venv_windos 目录下所有的文件
+venv_windos/ 
 .idea/
 workspace.xml

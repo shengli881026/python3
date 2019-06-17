@@ -4,6 +4,26 @@ import  requests
 import  codecs
 import  logging
 
+'''
+ *  @author shengli881026@163.com
+'''
+
+logging.debug("ssssss")
+logging.info(u"麻生希")
+
+
+'''
+logger = logging.getLogger(__name__)
+logger.setLevel(level = logging.INFO)
+handler = logging.FileHandler("log.txt")
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+logger.info("Start print log")
+'''
+
+
 
 '''
  *  抓取掘金<juejin.im>网站的 - 相亲模块的数据
@@ -40,6 +60,7 @@ class JmData :
         if (result['m'] == 'success'):
             print("一共采集到"+format(result['d']['total'])+'条数据')
 
+
         self.LogInfo()
         return result['d']['list']
     '''
@@ -55,9 +76,11 @@ class JmData :
      * @ logging 模块的使用
     '''
     def LogInfo(self,log_level = 0):
-        level_ = ['debug','info','warning','error','critical']
-        level_str = level[0]
-        logging.level[]("ssss")
+        level_dit = {0:'debug',1:'info',2:'warning',3:'error',4:'critical'}
+        level_str = level_dit[0]
+        #print(level_str)
+        #logging.debug("oeowoksksks skssk")
+        #logging.level[]("ssss")
         pass
 
 
@@ -65,7 +88,9 @@ class JmData :
 
 
 jm_obj = JmData(page=0,page_size=20)
-jm_obj.GetData(2)
+print(jm_obj.GetData(2))
+def strAbc():
+    pass
 #print(jm_obj.__dict__)
 #print(JmData.__dict__)
 #csdn_obj.GetData(1)

@@ -6,7 +6,7 @@ import  codecs
 '''
  *  抓取CSDN相关的关键词内容数据
  * 
- *  @author zhangshengli@163.com 
+ *  @author shengli881026@163.com 
 '''
 class CsdnData :
 
