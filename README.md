@@ -21,7 +21,8 @@
 * json 
 * requests
 * codecs
-
+### Python3 图像识别
+* Pillow - Python成像库（Fork）https://pillow.readthedocs.io/en/latest/
 
 ### Git 常用命令：
 Git 是必不可少的版本控制工具，相比较SVN更加灵活，注重版本控制；
