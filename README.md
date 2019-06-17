@@ -16,7 +16,12 @@
 * python - tuple元组
 * python - str 字符串
 * python - 列表和元组tuple 的切片
-* 
+
+### Python3 爬虫使用到的类库
+* json 
+* requests
+* codecs
+
 
 ### Git 常用命令：
 Git 是必不可少的版本控制工具，相比较SVN更加灵活，注重版本控制；
