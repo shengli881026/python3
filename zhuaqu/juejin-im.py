@@ -52,6 +52,7 @@ class JmData :
 
     '''
      * GetData 抓取数据接口，获取Url 的Json 数据接口，通过requests Post请求获取
+     * 抓取数据
      * 获取成功后return data;
     '''
     def GetData(self,page):
